@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  body {
+    background-color: #fdfdfd;
+    color: #111;
+  }
+  
+  /* NAVBAR */
+  nav {
+  
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+   
+  }
+  .conbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black; /* Warna hijau WhatsApp */
+    color: white !important;;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .conbutton:hover {
+    background-color: #2c2c2c; /* Warna lebih terang saat hover */
+}
+  
+  .nav-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 80%;
+    position: relative; /* Mengubah dari fixed ke relative */
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; /* Agar tetap di tengah */
+}
+
+  
+  .logo {
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+    
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+  }
+  
+  .nav-links a.contact {
+    background: #111;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+  }
+  
+  /* HERO */
+  .hero {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 120px;
+  }
+  
+  .hero-text {
+    max-width: 500px;
+  
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-text h3 {
+    font-weight: 400;
+    color: #999;
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+  
+  .hero-text p {
+    margin: 30px 0 20px;
+    font-size: 18px;
+  }
+  
+  .hero-text button {
+    padding: 12px 20px;
+    background-color: #111;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* GALLERY */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 450px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 6px;
+  }
+
+/* Styling section utama */
+.benefit-section {
+  background-color:rgba(0, 0, 0, 0.5);
+  color: black;
+  text-align: center;
+  padding: 30px 20px; /* Padding atas bawah 30px, kiri kanan 20px */
+  max-width: 1220px; /* Maksimal lebar kontainer */
+  margin: 50px auto; /* Agar berada di tengah */
+  border-radius: 10px; /* Opsional, biar ada sudut melengkung */
+}
+
+
+/* Styling judul */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Grid container */
+.benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Styling setiap benefit */
+.benefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling ikon */
+.benefit i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* Styling teks */
+.benefit h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.benefit p {
+  font-size: 14px;
+}
+
+footer {
+  color:black ;
+  padding: 20px;
+  max-width: 1220px;
+  margin: 50px auto; /* Agar berada di tengah */
+  justify-content:  space-between;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* Biar jarak seimbang */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column; /* Biar elemen tersusun vertikal */
+  gap: 10px; /* Beri jarak antar elemen */
+}
+
+
+.footer-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Biar peta ke kanan */
+}
+
+.footer-image iframe {
+  width: 400px; /* Sesuaikan ukuran */
+  height: 100px;
+  border: 0;
+}
+
+
+
+  
